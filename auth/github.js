@@ -39,7 +39,8 @@ passport.use(new GitHubStrategy({
 ));
 
 // serialize user into the session
+//part of auth
 init();
 
-
+//adding exports
 module.exports = passport;
