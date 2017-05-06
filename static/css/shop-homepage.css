@@ -12,12 +12,13 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-.slide-image {
-    width: 100%;
-}
 
 .carousel-holder {
     margin-bottom: 30px;
+}
+
+.slide-image {
+    width: 100%;
 }
 
 .carousel-control,
