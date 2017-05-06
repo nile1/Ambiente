@@ -1,5 +1,5 @@
-var passport = require('passport');
-var User = require('../user');
+var passport = require('passport');//password package
+var User = require('../user');// user package
 
 module.exports = function() {
 
