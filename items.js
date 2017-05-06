@@ -6,7 +6,6 @@ function ItemDAO(database) {
     "use strict";
 
     this.db = database;
-
     this.getCategories = function (callback) {
         "use strict";
 
