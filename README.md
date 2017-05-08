@@ -2,7 +2,9 @@
 
 ## Project for CSD428: Software Project Management, by Group 7.
 
-### Members:
+### E-commerce site ,with backend in nodejs, front hand in HTML and Database in mongodb, to sell furnitures.
+
+#### Members:
 - Nikhil Miglani
 - Nilesh Gupta
 - Nishank Saini
