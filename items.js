@@ -25,6 +25,7 @@ function ItemDAO(database) {
         ];
 
         var categories = [];
+
         var that = this;
         this
             .db
@@ -46,6 +47,8 @@ function ItemDAO(database) {
                 });
             });
         }
+    
+    
 
     this.getItems = function (category, page, itemsPerPage, callback) {
         "use strict";
@@ -68,7 +71,9 @@ function ItemDAO(database) {
         ];
 
         if (category == 'All') {
+            
             qry_GetItems.shift();
+            
         }
 
         var pageItems = [];
