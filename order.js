@@ -28,10 +28,11 @@ function OrderDAO(database) {
           );
     }
 
-    this.getOrder = function (orderId, callback) {
+    this.getOrder =  function (orderId, callback) {
         "use strict";
 
         var o_id = new ObjectID(orderId);
+        
 
         this
           .db
